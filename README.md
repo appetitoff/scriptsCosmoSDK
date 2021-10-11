@@ -3,7 +3,7 @@
 1. Download the script from my repository:
 
 ```bash
-wget https://github.com/didbit/scriptsCosmoSDK/blob/main/restakingRizon.sh
+wget https://raw.githubusercontent.com/didbit/scriptsCosmoSDK/main/restakingRizon.sh
 ```
 
 2. Give the permissions to this file:
