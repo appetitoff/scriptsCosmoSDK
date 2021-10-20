@@ -1,4 +1,4 @@
-# ReStaking script - auto claiming and delegating rewards for Game Network
+# ReStaking script - auto claiming and delegating rewards for Game (neuron-1) Network
 
 1. Download the script from my repository:
 
