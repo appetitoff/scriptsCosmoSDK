@@ -11,7 +11,7 @@ NODE=http://localhost:26657 #change it only if you use another rpc port of your 
 
 for (( ;; )); do
         echo -e "Get reward from Delegation"
-        echo -e "${PWD}\ny\n" | rizond tx distribution withdraw-all-rewards --from ${ACC_NAME} --fees 20ugame --chain-id neuron-1 --yes
+        echo -e "${PWD}\ny\n" | nibirud tx distribution withdraw-all-rewards --from ${ACC_NAME} --fees 20ugame --chain-id neuron-1 --yes
         for (( timer=10; timer>0; timer-- ))
         do
                 printf "* sleep for ${RED_COLOR}%02d${WITHOUT_COLOR} sec\r" $timer
