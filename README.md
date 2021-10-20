@@ -29,6 +29,6 @@ screen -S restakingGamescript
 5. Run auto claiming and delegating rewards:
 
  ```bash
-bash restakingRizon.sh
+bash restakingGame.sh
 ```
 6. Enjoy it :)
