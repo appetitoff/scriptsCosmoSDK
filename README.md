@@ -3,13 +3,13 @@
 1. Download the script from my repository:
 
 ```bash
-wget https://raw.githubusercontent.com/didbit/scriptsCosmoSDK/main/restakingRizon.sh
+wget https://raw.githubusercontent.com/appetitoff/scriptsCosmoSDK/main/restakingGame.sh
 ```
 
 2. Give the permissions to this file:
 
 ```bash
-chmod +x restakingRizon.sh
+chmod +x restakingGame.sh
 ```
 
 3. Edit this script with your credentials -> change these parameters: DELEGATOR='Your delegator address' ;
@@ -19,12 +19,12 @@ DELAY=36000 #in secs - how often restart the script ;
 ACC_NAME=YourWalleName 
  
  ```bash
-nano restakingRizon.sh
+nano restakingGame.sh
 ```
-4. Open the screen or tmux session:
+4. Open the screen session:
  
  ```bash
-# tmux new-session -s rizonscript
+screen -S restakingGamescript
 ```
 5. Run auto claiming and delegating rewards:
 
@@ -32,5 +32,3 @@ nano restakingRizon.sh
 bash restakingRizon.sh
 ```
 6. Enjoy it :)
-
-```bash
