@@ -1,4 +1,4 @@
-# ReStaking script - auto claiming and delegating rewards for Rizon Network
+# ReStaking script - auto claiming and delegating rewards for Game Network
 
 1. Download the script from my repository:
 
